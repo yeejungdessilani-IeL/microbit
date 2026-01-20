@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microbit Test - Dessilani Yeejung</title>
+    <style>
+        body { margin: 0; padding: 20px; background: #f0f0f0; font-family: Arial, sans-serif; }
+        canvas { border: 2px solid #333; background: #fff; display: block; margin: 0 auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        button { display: block; margin: 20px auto; padding: 10px 20px; font-size: 16px; cursor: pointer; background: #4a90e2; color: white; border: none; border-radius: 5px; }
+        button:hover { background: #357abd; }
+        #status { text-align: center; margin-top: 10px; font-weight: bold; color: #333; }
+        #info { text-align: center; margin-top: 20px; font-size: 14px; color: #666; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Test robottino Microbit</h1>
+    <canvas id="canvas" width="600" height="500"></canvas>
+    <button onclick="startRobot()">Avvio Robot</button>
+    <div id="status"></div>
+    <div id="info"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
